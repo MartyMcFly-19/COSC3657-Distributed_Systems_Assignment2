@@ -1,4 +1,3 @@
-
 # COSC 3657 – Unit 2: Declarative Infrastructure & Mini-K8s Reconciliation
 
 ## 1. Project Overview
