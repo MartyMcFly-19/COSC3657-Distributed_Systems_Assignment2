@@ -32,7 +32,6 @@ Assignment 2/
 ├── reconciler.py
 ├── README.md
 ├── kind-config.yaml
-└── venv/
 ```
 
 **File descriptions:**
