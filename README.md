@@ -29,8 +29,7 @@ Assignment 2/
 ├── crd_definition.yaml
 ├── sample_cr.yaml
 ├── reconciler.py
-├── README.md
-└── kind-config.yaml
+└── README.md
 ```
 
 **File descriptions:**
@@ -39,9 +38,6 @@ Assignment 2/
 - `sample_cr.yaml`: Defines the desired application configuration, including the number of replicas and container image.
 - `reconciler.py`: Contains the Python controller responsible for monitoring Kubernetes events and correcting differences between the desired and actual states.
 - `README.md`: Provides project documentation.
-- `kind-config.yaml`: Defines the local Kubernetes cluster configuration.
-
-The `venv` folder contains the local Python environment and is not required in the GitHub submission.
 
 ## 4. Kubernetes Cluster Setup
 
