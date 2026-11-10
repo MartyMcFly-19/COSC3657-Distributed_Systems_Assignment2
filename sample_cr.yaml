@@ -1,9 +1,8 @@
-apiVersion: cosc3657.local/v1alpha1
+apiVersion: cosc3657.tu.ca/v1alpha1
 kind: ResilientDeployment
-
 metadata:
-  name: echo-cluster
-
+  name: echo-service
+  namespace: default
 spec:
   replicas: 3
-  image: hashicorp/http-echo:1.0.0
+  image: hashicorp/http-echo:latest
