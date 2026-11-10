@@ -31,7 +31,7 @@ Assignment 2/
 ├── sample_cr.yaml
 ├── reconciler.py
 ├── README.md
-├── kind-config.yaml
+└── kind-config.yaml
 ```
 
 **File descriptions:**
