@@ -1,0 +1,9 @@
+apiVersion: cosc3657.local/v1alpha1
+kind: ResilientDeployment
+
+metadata:
+  name: echo-cluster
+
+spec:
+  replicas: 3
+  image: hashicorp/http-echo:1.0.0
